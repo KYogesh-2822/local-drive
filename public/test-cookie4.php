@@ -1,0 +1,1 @@
+<?php header('Set-Cookie: xyz=123; Path=/');echo "done";

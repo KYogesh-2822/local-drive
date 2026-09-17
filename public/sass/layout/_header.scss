@@ -1,0 +1,141 @@
+//Header Content Here
+
+.header {
+    width: 100%;
+
+    .container-fluid {
+        padding: 0 0;
+    }
+
+    .top-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $color-primary;
+        padding: 5px 50px;
+
+        .logo {
+            width: 140px;
+        }
+
+        .top-links {
+            ul {
+                align-items: center;
+
+                li {
+                    margin-left: 35px;
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
+
+                    a {
+                        color: #fff;
+                        font-size: 14px;
+
+                        &.btn {
+                            padding: 0 10px;
+                            min-width: 120px;
+                            border: 1px solid #fff;
+                        }
+
+                        i {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar {
+        background-color: transparent !important;
+        padding: 0 0;
+
+        .navbar-nav {
+            width: 100%;
+
+            li {
+                width: calc(100% / 6);
+
+                &:first-child {
+                    a {
+                        border-left: 0;
+                    }
+                }
+
+                a {
+                    display: flex;
+                    width: 100%;
+                    padding: 10px 10px;
+                    height: 70px;
+                    align-items: center;
+                    justify-content: center;
+                    border-left: 1px solid $color-primary;
+                    background-color: $color-secondary;
+                    color: #fff;
+
+                    &.active {
+                        color: #fff;
+                    }
+
+                    &:hover {
+                        color: #fff;
+                        background-color: #006639;
+                    }
+                }
+            }
+
+
+
+
+            .has-megamenu {
+                .nav-link {
+                    &:after {
+                        display: none;
+                    }
+                }
+
+                .megamenu {
+
+                    .col-lg-3 {
+                        border-right: 1px solid #c3c3c3;
+
+                        .col-megamenu {
+                            padding: 0 10px;
+
+                            .title {
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+
+                    .col-megamenu {
+                        li {
+                            width: 100%;
+                            background-color: transparent;
+                            margin-bottom: 10px;
+
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+
+                            a {
+                                color: $color-primary;
+                                height: auto;
+                                display: block;
+                                border-left: 0px;
+                                background: transparent;
+                                padding: 0 0 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+
+        }
+    }
+}

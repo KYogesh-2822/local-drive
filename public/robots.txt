@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /wp-admin/
+
+Sitemap: https://enterprise.jo/sitemap.xml

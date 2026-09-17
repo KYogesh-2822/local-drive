@@ -1,0 +1,263 @@
+// home
+
+.hero-sec {
+    height: 400px;
+    background-size: cover;
+    position: relative;
+
+    .register-row {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background-color: #fff;
+        padding: 10px 0;
+
+        p {
+            margin: 0 0;
+
+            a {
+                color: $color-secondary;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.address {
+    background-color: $bg-grey;
+    padding-bottom: 80px;
+    position: relative;
+
+    .hero-form {
+        margin: -320px auto 50px;
+    }
+
+    .grid {
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0px 0px 6px #00000029;
+        border: 1px solid #C3C3C3;
+        padding: 30px 30px 30px;
+        height: 100%;
+
+        figure {
+            width: 50px;
+            height: 50px;
+            margin: 0 auto 10px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+
+        .txt {
+            a {
+                font-family: $sans-serif-b;
+                color: $color-secondary;
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 18px;
+                margin: 10px 0px 0px 0px;
+            }
+        }
+
+    }
+
+    .slider-car {
+        margin-top: 100px;
+
+
+
+        .inner-heading {
+            margin-bottom: 80px;
+
+            h4 {
+                margin-bottom: 5px;
+            }
+        }
+
+        .slide-grid {
+            margin: 0 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            figure {
+                background: $bg-grey;
+            }
+
+            img {
+                mix-blend-mode: multiply;
+            }
+
+            .txt {
+                text-align: center !important;
+                width: 60%;
+                margin-top: 70px;
+                border: 2px solid brown;
+                h4 {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+
+        ul.slick-dots {
+            display: flex !important;
+            justify-content: center;
+            position: absolute;
+            bottom: calc(0% - 65px);
+            left: 50%;
+            transform: translateX(-50%);
+
+            &::before {
+                content: "=";
+                color: $color-secondary;
+                position: absolute;
+                left: -10px;
+                top: -6px;
+                transform: rotate(90deg);
+            }
+
+            &::after {
+                content: "\f105";
+                color: $color-secondary;
+                position: absolute;
+                right: -10px;
+                top: -7px;
+                font-family: 'FontAwesome';
+            }
+
+            li {
+                margin: 0 3px;
+                line-height: 0;
+                vertical-align: middle;
+
+                &.slick-active {
+                    button {
+                        background-color: $color-secondary;
+                    }
+                }
+
+                button {
+                    border: 0;
+                    font-size: 0;
+                    height: 3px;
+                    width: 15px;
+                    background-color: #C3C3C3;
+                }
+            }
+        }
+
+    }
+}
+
+.locations {
+    .location-grid {
+        ul {
+            li {
+                margin-bottom: 5px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                a {
+                    font-size: 18px;
+                    color: $color-secondary;
+                }
+            }
+        }
+    }
+}
+
+.blog-coloums {
+    background-color: $bg-grey;
+
+    .grid {
+        box-shadow: 0px 0px 6px #00000029;
+        border: 1px solid #C3C3C3;
+
+        figure {
+            height: 250px;
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: left center;
+            }
+        }
+
+        .txt {
+            text-align: center;
+            padding: 20px 30px 30px;
+            background-color: #fff;
+
+            h6 {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+.car-rental {
+    .address {
+        .grid {
+            .txt {
+                p {
+                    a {
+                        font-size: 18px;
+                        font-family: $sans-serif;
+                    }
+                }
+            }
+        }
+    }
+
+    .blog-coloums {
+        margin-top: 30px;
+
+        .grid {
+
+            .txt {
+                background-color: $bg-grey;
+                min-height: 280px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+
+                b {
+                    color: #000;
+                    font-size: 19px;
+                }
+
+                h2 {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+
+
+
+.main-heading-grey {
+    margin-top: 50px;
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 15px 20px;
+    border: 2px solid #c7c7c7;
+    font-family: $sans-serif-b;
+}

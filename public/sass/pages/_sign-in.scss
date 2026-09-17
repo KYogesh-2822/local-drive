@@ -1,0 +1,57 @@
+// sign-in
+
+.txt-heading {
+    padding: 50px 60px;
+
+    p {
+        margin: 0 0;
+        text-align: end;
+    }
+}
+
+
+.signin-tabs {
+
+    .nav-tabs {
+        .nav-link {
+            min-width: 300px;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 2;
+            color: $black;
+
+            &:first-child {
+                margin-left: 60px;
+            }
+
+            &.active {
+                color: $color-secondary;
+                text-decoration: underline;
+                position: relative;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    height: 3px;
+                    background-color: $color-secondary;
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        max-width: 800px;
+        margin: 40px auto 0;
+
+
+        .btn-grid {
+            .btn-txt {
+                width: fit-content;
+                margin-left: auto;
+            }
+        }
+    }
+}

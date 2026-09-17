@@ -1,0 +1,70 @@
+// One-Way Car Rental
+
+.hero-main-form {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.one-way-faq {
+    
+    .accordion-item {
+        border: 0px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0;
+
+        &:last-of-type {
+            .accordion-header {
+                border-bottom: 2px solid #181918;
+            }
+        }
+    }
+
+    .accordion-header {
+        border-top: 2px solid #181918;
+    }
+
+    .accordion-button {
+        color: $color-secondary;
+
+        &:not(.collapsed) {
+            color: #000;
+            background-color: transparent;
+            box-shadow: none;
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    .accordion-body {
+
+        a {
+            color: $color-secondary;
+            font-family: $sans-serif-b;
+        }
+
+        ul,
+        ol {
+            padding-left: 20px;
+
+            li {
+                margin-bottom: 15px;
+                list-style-type: decimal;
+
+                a {
+                    color: $color-secondary;
+                    font-family: $sans-serif-b;
+                }
+            }
+        }
+    }
+
+    .simpletextband {
+        a {
+            color: $color-secondary;
+            font-family: $sans-serif-b;
+        }
+    }
+
+}

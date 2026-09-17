@@ -1,0 +1,531 @@
+body {
+    position: static !important;
+}
+
+
+ul.dropdown-menu {
+    padding: 0 0;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-radius: 0;
+}
+
+.header .navbar .dropdown .dropdown-menu li a {
+    background: white;
+    line-height: normal;
+    height: auto;
+    color: #000;
+}
+
+.header .navbar .dropdown .dropdown-menu li {
+    width: 100%;
+    border-top: 1px solid #fff;
+}
+
+.header .navbar .dropdown .dropdown-menu li a:hover {
+    background-color: #169a5a;
+    color: #fff;
+}
+
+
+.img-png-wit img {
+    filter: saturate(100%) contrast(150%) invert(0%);
+}
+
+.img-png figure img {
+    mix-blend-mode: darken;
+}
+
+.img-png figure {
+    background-color: #e6e6e6;
+}
+
+div#translate__el {
+    display: none;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none;
+}
+
+.top-bar ul.dropdown-menu {
+    border-radius: 0;
+    top: 9px !important;
+}
+
+.top-bar ul.dropdown-menu li {
+    margin-left: 0 !important;
+}
+
+.top-bar ul.dropdown-menu li a {
+    color: #000 !important;
+    cursor: pointer;
+    padding: 6px 20px;
+}
+
+.top-bar ul.dropdown-menu li:first-child a {
+    font-weight: 700;
+    text-transform: capitalize;
+    pointer-events: none;
+}
+
+.header .top-bar .top-links ul.dropdown-menu li:first-child a:hover {
+    background-color: transparent;
+    color: #000 !important;
+}
+
+.top-bar ul.dropdown-menu li a:hover {
+    background-color: #169a5a;
+    color: #fff !important;
+}
+
+.top-bar ul.dropdown-menu {
+    border-radius: 0;
+    top: 22px !important;
+    left: 0;
+    z-index: 1;
+    padding: 10px 0 0px;
+}
+
+.top-bar ul.dropdown-menu li .form-check label:before {
+    content: "";
+    border: 2px solid #006639 !important;
+    border-radius: 100%;
+    top: 0px;
+}
+
+.top-bar ul.dropdown-menu li .form-check input:checked+label:after {
+    background: #006639;
+    border-radius: 100%;
+    top: 5px;
+    left: 5px;
+    width: 14px;
+    height: 14px;
+    border: 0px;
+    border-width: 0;
+}
+
+ul.typeahead.dropdown-menu {
+    width: 700px;
+}
+
+.iti.iti--allow-dropdown.iti--show-selected-dial-code.iti--show-flags.iti--inline-dropdown {
+    top: -1px;
+    width: 100%;
+}
+
+.modal-header {
+    background: #169a5a;
+    height: 45px;
+}
+.modal-dialog {
+    max-width: 681px;
+    margin: 1.75rem auto;
+}
+.modal-header {
+    border-top: none !important;
+}
+.vehicle-price-header{
+font-weight: 800;
+    border-bottom: 1px solid #b1b1b1;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+.errorList{
+    border: 1px solid;
+    padding: 4px 15px;
+    background: #f7d727;
+    font-size: 14px;
+}
+select#enterprise-pbk-select-language {
+    display: none;
+}
+.hero-form {
+    max-width: 1200px;
+}
+a#enterprise-pbk-existing-reservations {
+    display: none;
+}
+button.count {
+    width: 25px;
+    height: 25px;
+    border-bottom-radius: 12px;
+    border-radius: 8px;
+    margin-buttom: 13px;
+    font-size: 15px;
+    background: #006639;
+    color: white;
+margin-right: 15px;
+}
+
+/* abhishek 22-05-2024 */
+
+.choose_section {
+    margin-top: 90px;
+    padding-top: 40px;
+}
+
+.choose_section h3 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.choose_section .choose_items {
+    display: flex;
+}
+
+.choose_section .choose_items .choose_item {
+    width: calc(100% / 3);
+    border: 3px solid #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.choose_section .choose_items .choose_item h5{
+    font-weight: 600;
+}
+
+.choose_section .choose_items .choose_item li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.signup_section{
+    padding-top: 45px;
+    background: #fff;
+}
+
+.signup_section .step h6 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    font-size: 85px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup_section .step h5 {
+  font-weight: 600;
+}
+
+.signup_section h3 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.signup_section .steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.signup_section .steps .step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup_section .enquire {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    border: 1px solid #ddd;
+    padding: 20px 35px;
+    margin-top: 20px;
+}
+
+.signup_section .enquire h5{
+    font-weight: 600;
+}
+
+.signup_section .enquire p{
+    margin-bottom: unset;
+}
+
+.signup_section .enquire a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #127f4a;
+    border-radius: 30px;
+    padding: 10px 40px;
+}
+
+section.sec-p.address.m-5 {
+    padding-bottom: 95px;
+}
+
+/* .business-car-rental .sec-p {
+    padding-bottom: unset;
+} */
+
+.slider-vehicle .slick-next {
+    display: none !important;
+}
+
+.slider-vehicle .slick-prev {
+    display: none !important;
+}
+
+.greece_section{
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.greece_section::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #b8b9b9;
+    background-repeat: no-repeat;
+    top: 130px;
+}
+
+.greece_section .country {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.greece_section .country .form-select {
+    color: #212529;
+    font-size: 1rem;
+    min-width: 400px;
+}
+
+.greece_section .country .form-select:focus {
+    box-shadow: unset;
+    outline: none;
+}
+
+.greece_section .country label {
+    font-weight: 600;
+}
+
+.greece_section .content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.greece_section .content a {
+    color: #127f4a;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.greece_section .content p {
+    margin-bottom: unset;
+}
+
+.greece_section .car_desc img {
+    height: 14rem;
+    width: auto;
+}
+
+.greece_section .car_desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.greece_section .car_desc::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #b8b9b9;
+    bottom: 0;
+}
+
+.greece_section .car_desc .view {
+    background-color: #127f4a;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 8px 28px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.rental_section{
+    position: relative;
+}
+
+.rental_section .content_image {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 114px;
+    padding: 25px 0 25px 50px;
+    position: relative;
+}
+
+.rental_section .content_image:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #b8b9b9;
+    bottom: 0;
+    margin-left: -50px;
+}
+
+.rental_section .content {
+    width: 70%;
+}
+
+.rental_section .image {
+    width: 30%;
+}
+
+.rental_section .form {
+    margin: auto;
+    width: 60%;
+    padding: 30px 0;
+}
+
+.rental_section .form h6 {
+    text-align: right;
+}
+
+.rental_section .form button {
+    border: unset;
+    background: #127f4a;
+    height: 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.rental_section .form .form_leftcol {
+    display: flex;
+}
+
+.rental_section .form .form_rightcol_wrapper {
+    margin-bottom: 20px;
+}
+
+.rental_section .form .form_rightcol_wrapper input {
+    height: 50px;
+    border: 1px solid #b8b9b9;
+}
+
+.rental_section .form .form_row_description span {
+    font-size: 12px;
+    margin-top: -17px;
+    display: block;
+    margin-bottom: 17px;
+}
+
+.rental_section .form legend {
+    font-size: 18px;
+}
+
+.rental_section .form p:last-child a{
+    text-decoration: underline;
+    color: #127f4a;
+}
+
+/* career page css */
+
+.career_section {
+    padding: 70px 0;
+}
+
+.career_section p{
+    margin-bottom: unset;
+}
+
+.career_section ol p:first-child{
+    color: #006639;
+}
+
+.career_section ol p:nth-child(2){
+    margin-bottom: 25px;
+}
+
+
+.career_section ol li {
+    margin-bottom: 25px;
+}
+
+.career_section ol li b{
+    color: #006639;
+}
+
+.career_section ol p a{
+    color: #006639;
+}
+
+.career_section ol p {
+    padding-left: 100px;
+}
+
+/* form page css */
+
+.form_section .form button{
+    border: unset;
+    background: unset;
+}
+
+.form_section .form .clear {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* abhishek 22-05-2024 */
+
+.address .slider-car .slide-grid .txt {
+    text-align: center !important;
+    width: 60%;
+    margin-top: 1px;
+}
+.business-car-rental .rental-program-sec .rental-program-wrapper .rental-program-card {
+    background-color: #fff !important;
+}
+.business-car-rental .sec-p {
+    padding: 1px 0px 50px 0px !important;
+}
+.faq-p p{
+    text-align: left !important;
+}
+.hero-sec-dealership-solutions-technology .txt {
+    height: 106%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: left;
+    padding: 0 50px;
+}

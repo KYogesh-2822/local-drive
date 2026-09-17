@@ -1,0 +1,82 @@
+// Long-term-car-rental
+
+.hero-sec-long-term {
+    background-size: 35%;
+    background-position: right 40px;
+    background-repeat: no-repeat;
+    background-color: #e6e6e6;
+
+    .big-heading {
+        max-width: 1050px;
+        margin: auto;
+        padding: 10px 0;
+
+        h2 {
+            font-size: 50px;
+
+            span {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+.address {
+    .hero-form-long {
+        margin-bottom: 0;
+        max-width: 1050px;
+    }
+}
+
+.three-col-sec {
+    .grid {
+        border: 1px solid #c5c5c5;
+        background-color: #f0f0ef;
+        padding: 20px;
+        height: 100%;
+
+        figure {
+            width: 60px;
+            height: 60px;
+            margin-top: 25px;
+
+            // img {
+            //     mix-blend-mode: multiply;
+            // }
+
+            svg {
+                fill: $color-secondary;
+            }
+        }
+
+        .txt {
+            width: calc(100% - 60px);
+            padding-left: 15px;
+
+            h6 {
+                margin-bottom: 0;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.long-term-car-sec {
+
+    .txt {
+        .h1 {
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            margin-top: 20px;
+        }
+    }
+
+    figure {
+        height: auto;
+    }
+}

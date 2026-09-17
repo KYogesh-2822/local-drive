@@ -1,0 +1,95 @@
+// pursuits-with-enterprise
+
+.hero-list {
+    ul {
+        margin-bottom: 15px;
+
+        li {
+            display: inline-block;
+            font-size: 18px;
+
+            a {
+                color: $color-secondary;
+                padding: 0 20px 0 0;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+.slider-drives {
+    overflow: hidden;
+
+    .slick-list {
+        padding-left: 0 !important;
+    }
+
+    .slick-slider {
+        margin: 0 -15px;
+    }
+
+    .slick-slide {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .slide-grid {
+        figure {
+            width: 100%;
+            height: 175px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: top;
+            }
+        }
+
+        .txt {
+            h5 {
+                text-align: left;
+                margin-bottom: 10px;
+
+                a {
+                    color: $color-secondary;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+.covid-links {
+    ul {
+        li {
+            padding-right: 15px;
+            margin-right: 15px;
+            position: relative;
+
+            &::before {
+                content: '|';
+                position: absolute;
+                right: -1px;
+            }
+
+            &:last-child {
+                margin: 0;
+                padding: 0;
+
+                &::before {
+                    display: none;
+                }
+            }
+
+            a {
+                font-size: 18px;
+                color: $color-secondary;
+            }
+        }
+    }
+}

@@ -1,0 +1,81 @@
+// join-enterprise-plus
+
+.form-accordian {
+
+
+    .accordion-item {
+        background-color: #f3f3f3;
+        border: 2px solid rgba(0, 0, 0, 0.125) !important;
+        margin-bottom: 30px !important;
+        border-radius: 0;
+        border-top: 0px !important;
+
+        &:last-child {
+            margin-bottom: 0 !important;
+        }
+
+
+        .accordion-button:not(.collapsed) {
+            color: #000;
+            background-color: transparent;
+            box-shadow: none;
+        }
+
+        .accordion-header {
+            .accordion-button {
+                border-radius: 0 !important;
+                border-top: 2px solid $color-secondary !important;
+
+                &.collapsed {
+                    border-top-color: rgba(0, 0, 0, 0.125) !important;
+                }
+
+                &:after {
+                    filter: grayscale(1);
+                    width: 20px;
+                    height: 20px;
+                    content: "";
+                    background-size: 12px;
+                    background-color: $color-secondary;
+                    border-radius: 100%;
+                    background-position: center center;
+                }
+
+                &:focus {
+                    border-color: currentColor;
+                    box-shadow: none;
+                }
+
+                span {
+                    background-color: #181918;
+                    border-radius: 100%;
+                    color: #fff;
+                    height: 20px;
+                    width: 20px;
+                    line-height: normal;
+                    margin-bottom: 0;
+                    margin-right: 10px;
+                    text-align: center;
+                    font-size: 11px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+
+        .accordion-body {
+            padding: 30px 30px;
+
+            .form {
+                max-width: 1080px;
+                margin: auto;
+
+                .date-grid {
+                    gap: 30px;
+                }
+
+            }
+        }
+    }
+}

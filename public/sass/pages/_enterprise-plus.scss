@@ -1,0 +1,126 @@
+// enterprise-plus
+
+.plans {
+    .plan-grid {
+        border: 1px solid $bg-grey;
+        background-color: #fff;
+
+        &.plus {
+            h3 {
+                background-color: $color-secondary;
+            }
+        }
+
+        &.silver {
+            h3 {
+                background-color: #757575;
+            }
+        }
+
+        &.gold {
+            h3 {
+                background-color: #cfb67f;
+            }
+        }
+
+        &.Platinum {
+            h3 {
+                background-color: #272727;
+            }
+        }
+
+        h3 {
+            margin: 0 0;
+            padding: 10px 20px;
+            background-color: $color-feedly;
+            color: #fff;
+        }
+
+        ul {
+            li {
+                padding: 20px;
+                border-bottom: 1px solid $bg-grey;
+                font-size: 20px;
+                min-height: 100px;
+                display: flex;
+                width: 100%;
+                align-items: center;
+
+                &:last-child {
+                    border: 0;
+                }
+
+                p {
+                    margin-bottom: 0;
+                }
+
+            }
+        }
+    }
+}
+
+.benefits {
+    .grid {
+        ul {
+            padding-left: 22px;
+
+            li {
+                margin-bottom: 25px;
+                font-size: 20px;
+                position: relative;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                i {
+                    margin-left: -20px;
+                    color: $color-secondary;
+                }
+            }
+        }
+    }
+}
+
+.login-form {
+    position: relative;
+    padding: 60px 20px 40px 30px;
+
+    h3 {
+        color: #fff;
+    }
+
+    h2 {
+        color: #fff;
+    }
+
+    .btn-w {
+        border: 1px solid #fff;
+        width: 100%;
+        margin: 20px auto 20px;
+        background: transparent;
+    }
+
+    .btn-txt {
+        color: #fff;
+    }
+
+    figure {
+        position: absolute;
+        top: 0;
+        right: 20px;
+    }
+
+    p {
+        display: inline-block;
+        color: #fff;
+        margin: 10px 0;
+
+        .btn-txt {
+            display: inline-block;
+            color: #fff;
+        }
+
+    }
+
+}

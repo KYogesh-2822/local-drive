@@ -1,0 +1,177 @@
+// us-car-rental-locations
+
+
+.find-location {
+
+    .hero-form {
+        padding: 0 0;
+    }
+
+    .form {
+        form {
+            display: flex;
+            align-items: flex-end;
+
+            .form-group {
+                width: calc(100% - 200px);
+                margin-bottom: 0;
+            }
+
+            .btn-grid {
+                width: 200px;
+                text-align: end;
+                padding-left: 20px;
+
+                .btn {
+                    line-height: 2.8;
+                }
+            }
+        }
+    }
+}
+
+
+.car-rental-faq {
+    .accordion-button:focus {
+        border-color: unset;
+        box-shadow: none;
+    }
+
+    .accordion-button {
+        color: $color-secondary;
+
+        &:not(.collapsed) {
+            background-color: #fff;
+        }
+    }
+}
+
+
+.locations-sec {
+    .locations-grid {
+        gap: 15px;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+
+        .grid {
+            width: calc(100% / 5 - 12px);
+
+            h4 {
+                a {
+                    color: $color-secondary;
+                }
+            }
+
+            li {
+                margin-bottom: 10px;
+
+                a {
+                    color: $color-secondary;
+                    font-size: 18px;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+
+.locations-sec-2 {
+
+    .grid {
+
+        .locations-grid-4 {
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+
+            li {
+                width: calc(100% / 4 - 12px);
+                margin-bottom: 10px;
+
+                a {
+                    color: $color-secondary;
+                    font-size: 18px;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+            }
+        }
+
+        .locations-grid {
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+
+            li {
+                width: calc(100% / 5 - 12px);
+                margin-bottom: 10px;
+
+                a {
+                    color: $color-secondary;
+                    font-size: 18px;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            &.locations-grid-3 {
+                li {
+                    width: calc(100% / 3 - 10px);
+
+                    a {
+                        i {
+                            margin-left: 3px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+
+.car-rental {
+    .blog-coloums-logo {
+        .row {
+            gap: 24px 0px;
+        }
+
+        .grid {
+            text-align: left;
+            padding: 60px 50px 60px;
+            height: 100%;
+
+            .txt {
+                padding: 0 0;
+                background-color: transparent;
+                min-height: 180px;
+                align-items: flex-start;
+
+                p {
+                    text-align: left;
+                }
+            }
+
+            figure {
+                height: 80px;
+                width: 190px;
+                margin-bottom: 40px;
+
+                img {
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}

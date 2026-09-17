@@ -1,0 +1,38 @@
+// location
+
+.locations {
+    .sec-heading {
+        margin-bottom: 20px;
+    }
+
+    .grid {
+        margin-bottom: 20px;
+
+        h6 {
+            margin-bottom: 10px;
+
+            span {
+                font-weight: 700;
+            }
+        }
+
+        ul {
+            li {
+                margin-bottom: 3px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                a {
+                    font-weight: 700;
+                    letter-spacing: .015625rem;
+                    color: $color-secondary;
+                    font-size: 18px;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}
