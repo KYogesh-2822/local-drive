@@ -1,0 +1,79 @@
+// contact us
+
+.contact-detail {
+    .grid {
+        margin-bottom: 50px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            margin-bottom: 40px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid;
+        }
+
+        .inner-grid-left {
+            .btn {
+                min-width: 400px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .inner-grid-right {
+            ul {
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                    padding-bottom: 20px;
+                    font-family: $sans-serif-b;
+                    border-bottom: 1px solid #c3c3c3;
+
+                    &:last-child {
+                        border-color: #000;
+
+                    }
+
+                }
+            }
+        }
+
+
+    }
+}
+
+.contact-img {
+    background-color: #f3f3f3;
+    border-top: 2px solid #c3c3c3;
+    position: relative;
+    overflow: hidden;
+
+    .image {
+        height: 450px;
+        width: 690px;
+        margin-left: -20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.cont-adress-bottm {
+    .row {
+        &:first-child {
+            margin-bottom: 40px;
+        }
+    }
+
+    .txt {
+        p {
+            margin-bottom: 8px;
+        }
+    }
+}

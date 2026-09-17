@@ -1,0 +1,22 @@
+.form {
+    .form-group {
+        margin-bottom: 15px;
+        position: relative;
+
+        .form-label {
+            font-size: 15px;
+            font-family: "DIN2014-b";
+        }
+
+        .form-control,
+        .form-select {
+            height: 52px;
+            border-radius: 0;
+
+            &:focus {
+                box-shadow: none;
+                border-color: $color-secondary;
+            }
+        }
+    }
+}

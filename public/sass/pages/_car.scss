@@ -1,0 +1,218 @@
+// car
+
+.hero-sec-txt {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #f3f3f3;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.sec-car-detail {
+    .cars-detail {
+
+        .vehicle-specs-list,
+        ul {
+            width: calc(100% / 2);
+
+            li {
+                position: relative;
+                margin-bottom: 15px;
+                padding-left: 20px;
+
+                &:first-child {
+                    margin-left: 0;
+                    padding-left: 0;
+                }
+
+                &.car-features__list-item {
+                    padding-left: 0;
+                }
+
+                i {
+                    background-size: contain;
+                    width: 15px;
+                    height: 16px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    left: 0px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+
+                .icon-specs-transmission-gray {
+                    background-image: url("..//images/transmission-gray.svg");
+                }
+
+                .icon-specs-passenger-gray {
+                    background-image: url("..//images/passenger-gray.svg");
+                }
+
+                .icon-specs-bags-gray {
+                    background-image: url("..//images/download.svg");
+                }
+
+            }
+        }
+    }
+}
+
+.cars-sec-economy {
+    .accordion-item {
+        max-width: 270px;
+        margin: 0 auto 20px;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #169a5a;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .accordion-button {
+        padding: 0 0;
+    }
+
+    .accordion-button:focus {
+        z-index: 3;
+        border-color: transparent;
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .accordion-button:not(.collapsed):after {
+        filter: sepia(1);
+    }
+
+    .accordion-body {
+        background-color: #f7f7f7;
+
+        ul {
+            li {
+                margin-bottom: 10px;
+                text-align: left;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+}
+
+.cars-sec {
+    .cars-detail {
+        flex-wrap: wrap;
+        gap: 15px 15px;
+
+        .grid {
+            width: calc(100% / 3 - 10px);
+            text-align: center;
+            border-width: 0.125rem 0.125rem 0.25rem;
+            border-color: #c3c3c3;
+            border-style: solid;
+            padding: 2.8125rem 2rem;
+
+            a {
+                h4 {
+                    color: $color-secondary;
+                    text-decoration: underline;
+                }
+            }
+
+            .txt {
+
+                .vehicle-specs-list {
+                    justify-content: center;
+                    margin-bottom: 20px;
+
+                    li {
+                        position: relative;
+                        margin-left: 15px;
+                        padding-left: 20px;
+
+                        i {
+                            background-size: contain;
+                            width: 15px;
+                            height: 16px;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            position: absolute;
+                            left: 0px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                        }
+
+                        .icon-specs-transmission-gray {
+                            background-image: url("..//images/transmission-gray.svg");
+                        }
+
+                        .icon-specs-passenger-gray {
+                            background-image: url("..//images/passenger-gray.svg");
+                        }
+
+                        .icon-specs-bags-gray {
+                            background-image: url("..//images/download.svg");
+                        }
+
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+.other-vehicle-types {
+    .vehicle-types-main-grid {
+        flex-wrap: wrap;
+        gap: 35px 35px;
+
+        .vehicle-grid {
+            width: calc(100% / 3 - 24px);
+
+            figure {
+                width: calc(100% - 20%);
+                margin: auto;
+                height: 200px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    object-position: center;
+                }
+            }
+
+            .txt {
+                h5 {
+                    margin-bottom: 30px;
+                    border-bottom: 2px solid $color-secondary;
+                    width: fit-content;
+
+                    a {
+                        color: #000;
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+
+                .btn-grid {
+                    .btn {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+}

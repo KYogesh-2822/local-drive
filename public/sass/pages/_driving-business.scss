@@ -1,0 +1,24 @@
+// driving business
+
+.business-solutions-col {
+    .row {
+        background-color: #f3f3f3;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .grid {
+        figure {
+            height: 330px;
+        }
+
+        .txt {
+            background-color: #fff !important;
+            text-align: left;
+
+            h6 {
+                font-family: $sans-serif;
+            }
+        }
+    }
+}

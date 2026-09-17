@@ -1,0 +1,26 @@
+// europe-car-rental-locations
+
+.link-icn {
+    li {
+        margin-bottom: 10px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            font-size: 18px;
+            color: $color-secondary;
+        }
+
+    }
+}
+
+
+.europ-car-grid {
+    .grid {
+        height: 100%;
+        overflow: hidden;
+        background: #fff;
+    }
+}
